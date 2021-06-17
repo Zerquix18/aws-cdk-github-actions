@@ -1,6 +1,8 @@
 #!/bin/bash
 
 set -u
+sh -c "sudo chmod -R 777 /github"
+
 
 function parseInputs(){
 	# Required inputs
