@@ -100,7 +100,6 @@ function main(){
 	installTypescript
 	installAwsCdk
 	installPipRequirements
-	chown -R $USER:$USER .
 	runCdk ${INPUT_CDK_ARGS}
 }
 
